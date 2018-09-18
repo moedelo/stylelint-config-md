@@ -14,7 +14,7 @@ module.exports = {
             }
         ],
         "at-rule-name-case": "lower",
-        "max-nesting-depth": 2,
+        "max-nesting-depth": 3,
         "at-rule-name-space-after": "always-single-line",
         "at-rule-semicolon-newline-after": "always",
         "block-closing-brace-empty-line-before": "never",
