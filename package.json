@@ -1,0 +1,23 @@
+{
+  "name": "@moedelo/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moedelo/stylelint-config-md.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moedelo/stylelint-config-md/issues"
+  },
+  "homepage": "https://github.com/moedelo/stylelint-config-md#readme",
+  "dependencies": {
+    "stylelint": "^9.5.0",
+    "stylelint-config-recommended": "^2.1.0"
+  }
+}
