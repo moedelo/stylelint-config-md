@@ -124,6 +124,12 @@ module.exports = {
                 "resolveNestedSelectors": true
             }
         ],
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                "ignorePseudoClasses": ["global"]
+            }
+        ],
         "selector-attribute-operator-space-after": "never",
         "selector-attribute-operator-space-before": "never",
         "selector-combinator-space-after": "always",
@@ -136,7 +142,7 @@ module.exports = {
         "selector-pseudo-class-parentheses-space-inside": "never",
         "selector-pseudo-element-case": "lower",
         "selector-pseudo-element-colon-notation": "single",
-        "selector-nested-pattern": "^(?!&__|&--).*$",
+        "selector-nested-pattern": "^(?!&__|&--)(.|\n|\r)*$",
         "selector-max-id": 0,
         "selector-type-no-unknown": true,
         "selector-type-case": "lower",
