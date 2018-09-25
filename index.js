@@ -14,9 +14,9 @@ module.exports = {
             }
         ],
         "at-rule-name-case": "lower",
-        "max-nesting-depth": 3,
         "at-rule-name-space-after": "always-single-line",
         "at-rule-semicolon-newline-after": "always",
+
         "block-closing-brace-empty-line-before": "never",
         "block-closing-brace-newline-after": "always",
         "block-closing-brace-newline-before": "always-multi-line",
@@ -24,8 +24,10 @@ module.exports = {
         "block-opening-brace-newline-after": "always-multi-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always",
-        "color-hex-case": "lower",
-        "color-hex-length": "long",
+        "block-no-empty": true,
+
+        "color-no-hex": true,
+
         "comment-empty-line-before": [
             "always",
             {
@@ -38,6 +40,7 @@ module.exports = {
             }
         ],
         "comment-whitespace-inside": "always",
+
         "custom-property-empty-line-before": [
             "always",
             {
@@ -51,6 +54,8 @@ module.exports = {
                 ]
             }
         ],
+
+        "declaration-block-no-duplicate-properties": true,
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
         "declaration-block-semicolon-newline-after": "always-multi-line",
@@ -74,8 +79,8 @@ module.exports = {
                 ]
             }
         ],
+
         "function-comma-newline-after": "always-multi-line",
-        "selector-max-type": 1,
         "function-comma-space-after": "always-single-line",
         "function-comma-space-before": "never",
         "function-max-empty-lines": 0,
@@ -83,11 +88,12 @@ module.exports = {
         "function-parentheses-newline-inside": "always-multi-line",
         "function-parentheses-space-inside": "never-single-line",
         "function-whitespace-after": "always",
-        "indentation": 4,
-        "length-zero-no-unit": true,
-        "value-no-vendor-prefix": true,
+
         "property-no-vendor-prefix": true,
+
         "max-empty-lines": 1,
+        "max-nesting-depth": 3,
+
         "media-feature-colon-space-after": "always",
         "media-feature-colon-space-before": "never",
         "media-feature-name-case": "lower",
@@ -97,15 +103,17 @@ module.exports = {
         "media-query-list-comma-newline-after": "always-multi-line",
         "media-query-list-comma-space-after": "always-single-line",
         "media-query-list-comma-space-before": "never",
+
         "no-eol-whitespace": true,
-        "block-no-empty": true,
-        "no-extra-semicolons": true,
-        "declaration-block-no-duplicate-properties": true,
         "no-missing-end-of-source-newline": true,
+        "no-extra-semicolons": true,
+
+
+        "property-case": "lower",
+
         "number-leading-zero": "always",
         "number-no-trailing-zeros": true,
-        "selector-no-qualifying-type": true,
-        "property-case": "lower",
+
         "rule-empty-line-before": [
             "always-multi-line",
             {
@@ -117,6 +125,9 @@ module.exports = {
                 ]
             }
         ],
+
+        "selector-no-qualifying-type": true,
+        "selector-max-type": 1,
         "selector-attribute-brackets-space-inside": "never",
         "selector-class-pattern": [
             "^.[a-z]+((--|__)?[a-zA-Z0-9]+)*$",
@@ -146,7 +157,12 @@ module.exports = {
         "selector-max-id": 0,
         "selector-type-no-unknown": true,
         "selector-type-case": "lower",
+
         "unit-case": "lower",
+        "indentation": 4,
+        "length-zero-no-unit": true,
+
+        "value-no-vendor-prefix": true,
         "value-list-comma-newline-after": "always-multi-line",
         "value-list-comma-space-after": "always-single-line",
         "value-list-comma-space-before": "never",
