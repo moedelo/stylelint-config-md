@@ -107,7 +107,7 @@ module.exports = {
         "no-eol-whitespace": true,
         "no-missing-end-of-source-newline": true,
         "no-extra-semicolons": true,
-        "no-descending-specificity": false,
+        "no-descending-specificity": null,
 
 
         "property-case": "lower",
