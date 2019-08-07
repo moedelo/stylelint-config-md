@@ -139,7 +139,7 @@ module.exports = {
         "selector-pseudo-class-no-unknown": [
             true,
             {
-                "ignorePseudoClasses": ["global"]
+                "ignorePseudoClasses": ["global", "local"]
             }
         ],
         "selector-attribute-operator-space-after": "never",
