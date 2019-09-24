@@ -1,5 +1,8 @@
 module.exports = {
     "extends": "stylelint-config-recommended",
+    "plugins": [
+        "color-format"
+    ],
     "rules": {
         "at-rule-empty-line-before": [
             "always",
@@ -27,6 +30,9 @@ module.exports = {
         "block-no-empty": true,
 
         "color-no-hex": true,
+        "color-format/format": {
+          "format": "hsl"
+        },
 
         "comment-empty-line-before": [
             "always",
