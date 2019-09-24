@@ -1,7 +1,7 @@
 module.exports = {
     "extends": "stylelint-config-recommended",
     "plugins": [
-        "color-format"
+        "stylelint-color-format"
     ],
     "rules": {
         "at-rule-empty-line-before": [
