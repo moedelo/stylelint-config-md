@@ -1,8 +1,5 @@
 module.exports = {
     "extends": "stylelint-config-recommended",
-    "plugins": [
-        "stylelint-color-format"
-    ],
     "rules": {
         "at-rule-empty-line-before": [
             "always",
