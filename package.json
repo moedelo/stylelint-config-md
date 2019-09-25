@@ -18,7 +18,6 @@
   "homepage": "https://github.com/moedelo/stylelint-config-md#readme",
   "dependencies": {
     "stylelint": "^9.5.0",
-    "stylelint-color-format": "^0.2.0",
     "stylelint-config-recommended": "^2.1.0"
   }
 }

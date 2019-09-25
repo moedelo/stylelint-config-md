@@ -30,9 +30,7 @@ module.exports = {
         "block-no-empty": true,
 
         "color-no-hex": true,
-        "color-format/format": {
-          "format": "hsl"
-        },
+        "color-named": "never",
 
         "comment-empty-line-before": [
             "always",
@@ -86,6 +84,9 @@ module.exports = {
             }
         ],
 
+        "function-blacklist": [
+            "rgb", "rgba", "hsla",
+        ],
         "function-comma-newline-after": "always-multi-line",
         "function-comma-space-after": "always-single-line",
         "function-comma-space-before": "never",
