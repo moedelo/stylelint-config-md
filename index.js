@@ -16,6 +16,9 @@ module.exports = {
         "at-rule-name-case": "lower",
         "at-rule-name-space-after": "always-single-line",
         "at-rule-semicolon-newline-after": "always",
+        "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["/^md-/"]
+        }],
 
         "block-closing-brace-empty-line-before": "never",
         "block-closing-brace-newline-after": "always",
@@ -24,7 +27,7 @@ module.exports = {
         "block-opening-brace-newline-after": "always-multi-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always",
-        "block-no-empty": true,
+        "block-no-empty":true,
 
         "color-no-hex": true,
 
